@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Frontend Development, Web Development, Quiz, Tech Job Interview">
+    <meta name="description" content="Equip yourself for that web development job by answering this frontent quiz">
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico">
+    <title>Frontend Quiz - SB Templates</title>
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+<body>
+    <div class="container mt-5" id="best-wishes">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center message mt-5">
+                <div class="card-header bg-primary">
+             <h4 class="text-uppercase mt-2 text-white">Please Read Carefully</h4>
+             <small class="text-danger"><strong>in some few minutes you will be redirected to the quiz page</strong></small>
+            </div>
+             <ol class="mt-3">
+                <li>Once the quiz start and you exit, we count it as a fail.</li>
+                <li class="mt-1">Your performance in this quiz will show how much prepared you are.</li>
+                <li class="mt-1">Performing poor in the quiz doesn't mean you are a failure.</li>
+                <li class="mt-1">This quiz is designed to prepare you for your next job interview.</li>
+                <li class="mt-1">Once you choose your answer, the next question continues.</li>
+                <li class="mt-1">By writing quizzes, you improve you confidence level.</li>
+                <li class="mt-1">The quiz covers questions from HTML, CSS, Bootstrap & JavaScript.</li>
+             </ol>
+             <div class="card-header bg-primary">
+                <p class="mt-3 text-uppercase text-white">Wish you all the best in your quiz.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container mt-5" id="grid">
+    <div class="row justify-content-center">
+        <div class="col-md-6  mt-5 text-center" id="quiz">
+            <div class="card-header bg-primary">
+                <h3 class="text-white mt-3">Frontend Quiz</h3>
+                <p class="text-white"><strong>build your self confidence.</strong></p>
+            </div>
+            <h5 class="mt-3" id="question"></h5>
+            <div class="mt-3 button-group d-flex">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+            <hr>
+            <p id="progress"><strong>Question of x out y</strong></p>
+        </div>
+    </div>
+</div>
+
+     
+
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/question.js"></script>
+<script src="assets/js/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</body>
+</html>
